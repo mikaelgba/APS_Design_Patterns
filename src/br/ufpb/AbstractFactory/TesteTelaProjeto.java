@@ -12,8 +12,15 @@ class TesteTelaProjeto {
 		 TelaProjeto tela = new TelaProjeto();
 		 tela.setFabrica(new FabricaWindows());
 		 tela.montar();
-		 tela.Desenhar();
-		 assertEquals("Janela Windows { menu Windows bot�o Windows}", tela.Desenhar());
+		 tela.desenhar();
+		 assertEquals("Janela Windows { Menu Windows Botão Windows }", tela.desenhar());
 	}
-
+	@Test
+	void test2() {
+		 TelaProjeto tela = new TelaProjeto();
+		 tela.setFabrica(new FabricaAndroid());
+		 tela.montar();
+		 tela.desenhar();
+		 assertEquals("Janela Android { Menu Android Botão Android }", tela.desenhar());
+	}
 }

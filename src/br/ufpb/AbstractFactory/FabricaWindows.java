@@ -2,24 +2,16 @@ package br.ufpb.AbstractFactory;
 
 public class FabricaWindows implements FabricaAbstrata {
 
-
-	public Janela criarJanala() {
-		// TODO Auto-generated method stub
-		return null;
+	@Override
+	public Janela criarJanela() {
+		return new JanelaWindows();
 	}
-
-
+	@Override
 	public Menu criarMenu() {
-		// TODO Auto-generated method stub
-		return null;
+		return new MenuWindows();
 	}
-
-
-	public Botao criarBotao() {
-		// TODO Auto-generated method stub
-		return null;
+	@Override
+	public Botao criarBotao() {	
+		return  new BotaoWindows();
 	}
-	
-	
-
 }
