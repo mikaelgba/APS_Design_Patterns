@@ -11,5 +11,5 @@ public abstract class PizzaBase {
 		pizza.comentario();
 		return pizza;
 	}
-	abstract Pizza criarPizza( String tipoPizza );
+	public abstract Pizza criarPizza( String tipoPizza );
 }
