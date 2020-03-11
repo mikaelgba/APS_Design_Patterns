@@ -12,6 +12,7 @@ class Test {
 				.ClientePJ("Beto Cachaçeiro","11111")
 				.item(3,Corote)
 				.item(5,Derby)
+				.Frete(100)
 				.Build();
 	}
 	@org.junit.jupiter.api.Test
@@ -23,6 +24,7 @@ class Test {
 				.ClientePF("Jose","000000")
 				.item(3,banana)
 				.item(5,maca)
+				.Frete(150)
 				.Build();
 	}
 }

@@ -1,6 +1,7 @@
 package br.ufpb.Builder;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Venda {
@@ -11,6 +12,7 @@ public class Venda {
 	private Cliente cliente;
 	private Funcionario funcionario;
 	private Frete frete;
+	private Double total;
 	
 	public void addItem(ItemVenda produto) {
 		itemVendidos.add(produto);
