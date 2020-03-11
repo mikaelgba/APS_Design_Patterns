@@ -52,12 +52,15 @@ public class Venda {
 	public void setFuncionario(Funcionario funcionario) {
 		this.funcionario = funcionario;
 	}
-
 	public Frete getFrete() {
 		return frete;
 	}
-
 	public void setFrete(Frete frete) {
 		this.frete = frete;
+	}
+	@Override
+	public String toString() {
+		return "Venda [data=" + data + ", builder=" + builder + ", itemVendidos=" + itemVendidos + ", cliente="
+				+ cliente + ", funcionario=" + funcionario + ", frete=" + frete + ", total=" + total + "]";
 	}
 }

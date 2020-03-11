@@ -9,21 +9,23 @@ class Test {
 		Produto Derby =  new Produto("Derby",2.50);
 		Venda venda1 = new VendaBuilder()
 				.data("10/03/20")
-				.ClientePJ("Beto Cacha√ßeiro","11111")
+				.ClientePJ("Beto CachaÁeiro","11111")
 				.item(3,Corote)
 				.item(5,Derby)
+				.Funcionario("Damiao, Dono do Bar")
 				.Frete(100)
 				.Build();
 	}
 	@org.junit.jupiter.api.Test
 	void test2() {
-		Produto banana =  new Produto("Banana ma√ßa",1.00);
-		Produto maca =  new Produto("ma√ßa",0.80);
+		Produto banana =  new Produto("Banana maca",1.00);
+		Produto maca =  new Produto("maca",0.80);
 		Venda venda2 = new VendaBuilder()
 				.data("10/03/20")
 				.ClientePF("Jose","000000")
 				.item(3,banana)
 				.item(5,maca)
+				.Funcionario("Jo„o")
 				.Frete(150)
 				.Build();
 	}

@@ -35,4 +35,8 @@ public class VendaBuilder {
 	public Venda Build() {
 		return new Venda(this);
 	}
+	@Override
+	public String toString() {
+		return "VendaBuilder [venda=" + venda + "]";
+	}
 }
