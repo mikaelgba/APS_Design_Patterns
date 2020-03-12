@@ -60,7 +60,7 @@ public class Venda {
 	}
 	@Override
 	public String toString() {
-		return "Venda [data=" + data + ", builder=" + builder + ", itemVendidos=" + itemVendidos + ", cliente="
-				+ cliente + ", funcionario=" + funcionario + ", frete=" + frete + ", total=" + total + "]";
+		return "Venda [data = " + data + ", itemVendidos = " + itemVendidos + ", cliente = "
+				+ cliente + ", funcionario = " + funcionario + ", frete = " + frete + "]";
 	}
 }

@@ -33,6 +33,6 @@ public class VendaBuilder {
 		return this;
 	}
 	public Venda Build() {
-		return new Venda(this);
+		return venda;
 	}
 }

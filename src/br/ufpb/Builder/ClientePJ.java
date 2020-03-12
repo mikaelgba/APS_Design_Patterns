@@ -23,6 +23,6 @@ public class ClientePJ extends Cliente{
 	}
 	@Override
 	public String toString() {
-		return "ClientePJ [cnpj=" + cnpj + ", razaoSocial=" + razaoSocial + "]";
+		return "ClientePJ [cnpj = " + cnpj + ", razaoSocial = " + razaoSocial + "]";
 	}
 }

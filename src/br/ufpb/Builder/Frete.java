@@ -15,6 +15,6 @@ public class Frete {
 	}
 	@Override
 	public String toString() {
-		return "Frete [valor=" + valor + "]";
+		return "Frete [valor = " + valor + "]";
 	}
 }

@@ -23,6 +23,6 @@ public class ItemVenda {
 	}
 	@Override
 	public String toString() {
-		return "ItemVenda [quantidade=" + quantidade + ", produto=" + produto + "]";
+		return "ItemVenda [quantidade = " + quantidade + ", produto = " + produto + "]";
 	}
 }
